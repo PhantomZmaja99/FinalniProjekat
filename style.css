@@ -1,0 +1,347 @@
+body {
+    font-family: "ElectronicArtsText", "ElectronicArtsDisplay", "apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+
+header {
+    background-color: #202124;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; 
+    height: 50px; 
+    background-image: url('path/to/your/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+.hero {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    color: #333;
+}
+
+
+.FeaturedGames {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.FeaturedGame {
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.FeaturedGame img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.FeaturedGame h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.FeaturedGame p {
+    color: #666;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+.LatestGames {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.LatestGames button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.ea-hero-container {
+    margin-top: 50px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.ea-hero-container p {
+    margin-bottom: 20px;
+}
+
+.ea-cta-first {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    text-align: center;
+}
+
+
+.eapl-hero__content {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.eapl-hero__content .eapl-hero__body {
+    margin-bottom: 20px;
+}
+
+
+.eapl-hero__logo {
+    display: block;
+    margin: 20px auto; 
+    max-width: 200px; 
+}
+
+
+.eapl-hero__ctas {
+    margin-top: 30px;
+}
+
+.eapl-hero__ctas a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ffffff;
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.eapl-hero__ctas a:hover {
+    background-color: #0056b3;
+}
+
+.eapl-cta__label {
+    display: block;
+    padding: 12px 24px;
+    background-color: #ff931e; 
+    color: #fff; 
+    border-radius: 5px; 
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.eapl-cta__label:hover {
+    background-color: #f67100; 
+}
+ea-tabs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0f1111;
+    padding: 10px 20px;
+}
+
+
+ea-tab {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+
+ea-tab.iron-selected {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+}
+
+
+ea-tab:hover {
+    color: #007bff;
+}
+
+.ea-hero-container {
+    position: relative;
+    background-color: #202124; 
+    color: #fff; 
+    padding: 50px; 
+    text-align: center;
+}
+
+.eapl-hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.eapl-cta-first {
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px; 
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.eapl-cta-first:hover {
+    background-color: #ffffff; 
+}
+
+.eapl-tile__link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.eapl-tile__media-container {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+
+.eapl-tile__image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+
+.eapl-tile__content-wrapper {
+    padding: 15px;
+}
+
+.eapl-tile__eyebrow {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+}
+
+.eapl-tile__eyebrow-secondary {
+    margin-left: 5px;
+}
+
+.eapl-tile__title {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.eapl-tile__copy {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+}
+.eapl-hero__body {
+    margin: 0;
+    width: 100%;
+}
+.eapl-hero__content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    padding: 32px var(--ea-rail-mobile);
+    position: absolute;
+    text-align: center;
+    text-shadow: var(--ea-theme-hero-text-shadow);
+    top: 0;
+    width: 100%;
+    z-index: 4;
+}
+.LatestUpdates {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        font-family: "ElectronicArtsText";
+    }
+    
+.LatestUpdate {
+        width: 200px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-family: "ElectronicArtsText";
+    }
+    
+.LatestUpdate img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        font-family: "ElectronicArtsText";
+    }
+    
+.LatestUpdate h2 {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #333;
+        font-family: "ElectronicArtsText";
+    }
+    
+.LatestUpdate p {
+        color: #666;
+        margin-top: 5px;
+        cursor: pointer;
+        font-family: "ElectronicArtsText";
+    }
+
+.eapl-cta {
+    align-items: center;
+    color: var(--ea-dark-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    background-color: #418ddf;
+    border-radius: 5px; 
+    padding: 10px 20px;
+}
+.eapl-cta h2{
+    margin-right: 10px; 
+}
+.eapl-cta__label{
+    color: black;
+}
+
